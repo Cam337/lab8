@@ -38,7 +38,7 @@
     <div id="googleMaps" class="profile">
       <h3>Event Location</h3>
       <div id="map" style="max-height: 400px;"></div>
-    </div> 
+    </div>
 
     <hr>
 
@@ -94,8 +94,9 @@
 
           <div class="row">
             <label for="">Your Photo</label>
-            
-           <!--  <div class="col">
+
+           <!-- Camera Code -->
+           <div class="col">
               <div id="camera" class="profile" style="max-width: 250px;">
                 <video autoplay id="camera-video"></video>
                 <button id="camera-button" class="btn btn-primary">Take Photo</button>
@@ -105,13 +106,16 @@
             <div class="col">
               <canvas id="camera-canvas"></canvas>
             </div>
-            -->
+
           </div>
         </div>
       </div>
       <br>
-      
+
     </div>
   </div>
+
+  <script src="/js/googleMaps.js"></script>
+  {{> googleMaps}}
 </body>
 </html>
